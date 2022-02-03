@@ -1,0 +1,87 @@
+
+body{
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+}
+
+h1{
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+h2{
+	font-size:1.5em;
+	font-weight:normal ;
+    color: rgb(50, 50, 50);
+}
+
+/*Style the images*/
+img{
+    height: auto;
+    width:30%;
+    border: 3px solid lightgoldenrodyellow;
+    padding: 5px;
+    border-radius: 1px;
+    margin: 5px;
+}
+
+img:hover{
+	box-shadow: 3px 4px rgb(128, 128, 128);
+}
+
+.runway img:nth-child(2n){
+	border: 10px solid rgb(191, 191, 191);
+   }
+.runway img:nth-child(2n):hover{
+	box-shadow: 8px 8px rgb(211, 204, 183);
+   }
+
+p{
+	font-size: 20px;
+}
+
+
+header, nav, main, h1, h2, p{
+	padding: 1px;
+	margin: 10px 0;
+}
+
+footer{
+	padding: 1px;
+	margin: 10px 0;
+	border-top:1px solid grey;
+	display: inline-block;
+}
+
+
+
+nav li{
+	padding:4px;
+	margin: 2px; 
+	width:22%;
+	border-bottom: 1px solid gray;
+	display: inline-block;
+	text-align: center;
+}
+
+nav li a{
+	color:grey !important;
+	text-decoration: none !important;
+}
+
+
+nav .active{
+    text-transform: uppercase;
+	text-align: center;
+	border:2px;
+	color:Black
+}
+
+nav .active a{
+	text-decoration: none;
+	color:rgb(15, 15, 16) !important;
+}
+
+a:visited{color:#575552}
+
